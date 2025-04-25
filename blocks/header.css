@@ -1,0 +1,55 @@
+header {
+  height: 10vh;
+  background-color: #bfb096;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'cormorant garamond';
+}
+
+.logo {
+  margin-left: 5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_img {
+  height: 3.5rem;
+}
+
+.nav_bar {
+  width: 70vw;
+  margin-right: 13rem;
+}
+
+.nav_list {
+  height: 100%;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_element {
+  text-align: center;
+  color: azure;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: azure;
+}
+
+.hero_button__header {
+  color: azure;
+  background-color: #402c0dc0;
+  padding: 10%;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
