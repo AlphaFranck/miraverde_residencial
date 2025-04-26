@@ -2,7 +2,6 @@ body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
   margin: 0;
-
 }
 
 .hero_container {
@@ -10,22 +9,21 @@ body {
   flex-direction: column;
   align-items: center;
   height: 90vh;
-  background-image: url(/images/cuarto\ principal.png);
+  background-image: url(../images/cuarto\ principal.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed ;
+  background-attachment: fixed;
 }
 
 .logo_main {
   width: 50vh;
 }
 
-
 h2 {
   padding: 1.5rem;
   background-color: #86370a70;
   border-radius: 20px;
-  font-family: "cormorant garamond";
+  font-family: 'cormorant garamond';
   font-size: 3rem;
   font-weight: 700;
   color: white;
@@ -35,7 +33,7 @@ h2 {
 }
 
 .hero_button {
-  font-family: "cormorant garamond";
+  font-family: 'cormorant garamond';
   font-size: 2rem;
   color: #f0f0f0;
   background-color: #402c0d;
