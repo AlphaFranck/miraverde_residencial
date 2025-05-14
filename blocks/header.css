@@ -1,29 +1,31 @@
-header {
-  height: 10vh;
+.header {
+  height: 10%;
+  width: 100%;
   background-color: #bfb096;
   display: flex;
   justify-content: space-between;
   font-family: 'cormorant garamond';
+  position: fixed;
 }
 
-.logo {
-  margin-left: 5rem;
+.header__logo {
+  margin-left: 5%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo_img {
+.header__logo-img {
   height: 3.5rem;
 }
 
-.nav_bar {
-  width: 70vw;
+.header__bar {
+  width: 100%;
   margin-right: 13rem;
 }
 
-.nav_list {
+.header__nav-list {
   height: 100%;
   margin: 0;
   text-decoration: none;
@@ -33,19 +35,19 @@ header {
   align-items: center;
 }
 
-.nav_element {
+.header__nav-item {
   text-align: center;
   color: azure;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.nav_link {
+.header__nav-link {
   text-decoration: none;
   color: azure;
 }
 
-.hero_button__header {
+.header__nav-link--cta {
   color: azure;
   background-color: #402c0dc0;
   padding: 10%;
